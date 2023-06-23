@@ -1,0 +1,61 @@
+.header__phone__spb a:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: ;
+	height: ;
+	top:;
+	left: ;
+	background: url(/images/phone.svg) no-repeat;
+}
+//выравнивание элементов по центру блока
+.header__top__list{
+ display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center; 
+    -webkit-box-pack: center; 
+        -ms-flex-pack: center; 
+            justify-content: center; 
+}
+//одинаковая ширина блоков
+.header__top__item{
+ -webkit-box-flex:1;
+     -ms-flex:auto;
+         flex:auto;
+}
+//для флоута
+.clear:before, .clear:after{
+	content: "";
+	display: table;
+}
+.clear:after{
+	clear: both;
+}
+
+//Placeholder:
+input::-moz-placeholder { 
+font-size: 18px;
+
+input::-webkit-input-placeholder { 
+	font-size: 18px;
+
+input:-ms-input-placeholder{
+	font-size: 18px;
+}
+
+ textarea::-moz-placeholder { 
+color:#000;
+}
+
+ textarea::-webkit-input-placeholder { 
+	color:#000;
+}
+
+ textarea:-ms-input-placeholder{
+	color:#000;
+}

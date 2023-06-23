@@ -1,0 +1,244 @@
+.card__right__top ul#w0 {
+    position: absolute;
+    top: 5px;
+    left: 257px;
+    z-index: 10000;
+    display: none;
+}
+.card__right__top {
+    position: relative;
+}
+@media (max-width: 991px){
+    .card__right__top {
+        position: absolute;
+    }
+}
+.card__right__top ul#w0 a.btn {
+    display: block;
+}
+.card__right__top .btn.btn-social-icon.btn-whatsapp {
+    color: #fff;
+    background-color: #56db61;
+    border-color: rgba(0,0,0,0.2);
+}
+.main__cart .cartblock__link .cartblock__img {
+    background-color: #841214;
+}
+.main__cruise__button__liner {
+    display: inline-block;
+    line-height: 52px;
+}
+.liner__tech{overflow:hidden}
+.cabina__wrap__left__img {
+    border-top: 1px solid #D8D6BC;
+}
+.cabina__wrap__left__table {
+    top: 75px;
+}
+.form__result__item__text__title {
+    overflow: hidden;
+}
+.cart__tabs .tabs__item::after {
+    bottom: -4px;
+}
+.tabs__content--infra p {
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+.tabs__content--infra ul li{
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+    color: #393939;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    position: relative;
+    padding-left: 15px;
+}
+.tabs__content--infra ul li:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top:5px;
+    left: 0;
+    background: #393939;
+}
+.page{ min-height: calc(100vh - 366px); }
+.form__result__list__title a {
+    color: #8F1416;
+    text-decoration: underline;
+}
+#loading {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000000;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    display: none;
+    vertical-align: middle;
+}
+#loading svg {
+    fill: wheat;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    right: 0;
+    margin-top: 50px;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 1600ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 1600ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 1600ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 1600ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+/*.custom-select li {*/
+    /*display: inline-block;*/
+/*}*/
+/*.custom-select li a {*/
+    /*color: #8F1416;*/
+    /*font-weight: normal;*/
+/*}*/
+/*.custom-select li a.asc  {*/
+    /*font-weight: bold;*/
+/*}*/
+.cart__form__left__wrap--right {
+    position: static;
+}
+.cart__form .contact__form {
+    width: 412px;
+}
+@media (max-width: 767px) {
+    .cart__form .contact__form {
+        width: 100%;
+    }
+}
+.form__result__item__bottom__popup {
+    width: auto;
+    padding: 0 3px;
+}
+.kviz {
+    height: 100%;
+    background: url(/images/i_banners/astarta-banner.jpg) no-repeat;
+    background-size: cover;
+}
+@media (max-width: 1420px) {
+    .kviz {
+        background-size: contain;
+        height: auto;
+    }
+    .card__right__item {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .port__title {
+        display: inline-block;
+        width: 89%;
+    }
+    .port__content, .port__content__right__more {
+        display: inline-block;
+        width: 9%;
+    }
+}
+.kviz-title, .kviz-wrap, .kviz__gradient  {
+    display: none;
+}
+.otziv__main__list {
+    height: 95%;
+}
+.spb__kruiz__item__title a {
+    color: #841214;
+}
+.sale__date__cal, .sale__title a {
+    color: #8F1416;
+}
+.banner__right {
+    display: none;
+}
+.main__cruise-filtr {
+    width: 140px;
+}
+.main__cruise-podbor {
+    width: 150px;
+}
+.main__cruise input[type="date"]{
+    color: #1d1d1d;
+}
+.main__cruise__drop{
+    color: #1d1d1d;
+}
+.main__cruise__drop__title{
+    color: #1d1d1d;
+}
+.main__cruise__sidebar input.main__cruise__drop__title::-moz-placeholder {
+    color: #1d1d1d;
+}
+input.main__cruise__drop__title::-webkit-input-placeholder {
+    color: #1d1d1d;
+}
+input.main__cruise__drop__title:-ms-input-placeholder{
+    color: #1d1d1d;
+}
+.label{
+    color: #1d1d1d;
+}
+.sliderValue__all{
+    color: #1d1d1d;
+}
+.kviz-men__title{
+    color: #1d1d1d;
+}
+
+@media (max-width: 991px) {
+    .card__right__map {
+        width: 98%;
+    }
+    .card__right__item {
+        display: none;
+    }
+}
+.alert.alert-success.alert-dismissable {
+    color: green;
+}
+.alert.alert-danger.alert-dismissable {
+    color: red;
+}
